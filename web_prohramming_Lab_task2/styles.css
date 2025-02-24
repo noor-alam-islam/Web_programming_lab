@@ -1,0 +1,130 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Header Styling */
+header {
+    background-color: #222; /* Dark gray for a professional look */
+    color: #fff;
+    padding: 1.2em 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+header h1 {
+    margin-bottom: 0.3em;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Navigation Hover Effect */
+nav ul li a:hover {
+    background-color: #d4a373; /* Warm gold for a premium look */
+    color: #222;
+    transform: scale(1.05);
+}
+
+/* Main Content Layout */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 30px auto;
+    gap: 20px;
+}
+
+article {
+    flex: 3;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Sidebar Styling */
+aside {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222; /* Matches header for consistency */
+    color: #f4f4f4;
+    text-align: center;
+    padding: 1.2em 0;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+
+    article {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        display: block;
+        text-align: center;
+    }
+}
