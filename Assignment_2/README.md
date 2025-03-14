@@ -3,6 +3,10 @@
 A simple and interactive To-Do List application built with HTML, CSS, and JavaScript. This application allows users to add and delete tasks, providing 
 a straightforward way to manage daily activities.
 
+🎯🎯Developed by: 
+Noor Alam Islam Manik
+ID: 221400044
+
 📸📸📸Snapshot: 
 <img width="1512" alt="Screenshot 2025-03-14 at 6 02 35 PM" src="https://github.com/user-attachments/assets/ae9db1ac-8fe1-48d0-969e-5ebf98a65462" />
 ot
